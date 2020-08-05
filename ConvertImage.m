@@ -8,9 +8,11 @@
 
 % Read in an image to convert
 % If enter is hit the image to read will default to clocktower.jpg
+clc;
+clear;
 imageName = input('Please enter the name of the image you which to convert:','s');
-if length(imageName) == 0
-    imageName = 'clocktower.jpg';
+if isempty(imageName)
+    imageName = 'Rangitoto.jpg';
 end
 A = imread(imageName);
 

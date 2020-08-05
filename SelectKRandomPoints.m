@@ -7,7 +7,7 @@ function randPxls = SelectKRandomPoints(inImg,pxlNo)
 %        pxlNo = inputted number of pixels
 % Outpus:
 %        randPxls = array of randomly selected pixels of order (k,2)
-% Author: Joshua Looker
+% Author: nesaking100
 
 % Find the size of the inputted image
 [m,n,~] = size(inImg);
