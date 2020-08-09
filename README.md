@@ -1,4 +1,6 @@
 # KmeansImage
+![image](6colourRangitoto.jpg)
+
 A fast implementation of k-means clustering in MATLAB used to reduce the number of colours in an inputted image to a user decided number.
 
 ## Usage
